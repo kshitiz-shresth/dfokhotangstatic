@@ -1,0 +1,115 @@
+/*navigation*/
+.top-contact , .top-contact a , .top-links,  .top-links a{
+	font-size: 12px !important;
+}
+ 
+.nav.menu a{
+	font-size: 14px !important;
+}
+
+.header {
+	margin-bottom: 10px;
+}
+
+
+/*slider*/
+
+.swiper-slide .container div {
+	width: 100%;
+}
+
+.swiper-slide .container div>span{
+	position: absolute; 
+	bottom: 0;
+	width: 100%; 
+	left: 0
+}
+.swiper-slide .container div>span>p{
+	text-align: center; 
+	padding: 10px; 
+	color: #ffff; 
+	background: rgba(0, 0, 0, 0.7);
+
+}
+
+/*end of slider*/
+
+
+.officer-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 300px;
+	height: 100%; 
+  	box-shadow: 0.2px 0.2px 4px #e4e4e4;
+  	border-radius: 20px;
+}
+.officer-card .officer-img { 
+
+	height: 150px;
+	width: 123px;
+	padding-top: 60px;
+}
+
+.officer-card .officer-designation {
+	color: #000;
+	margin-top: 70px;
+
+}
+
+.officer-card .officer-img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 20px
+
+}
+
+
+/*logo*/
+.logo {
+	height: 70px;
+}
+
+
+
+.dfo-logo>img {
+	height: 70px ;
+}
+
+/*about khotang image*/
+
+.about-khotang-image {
+	width: 540px;
+	overflow: hidden;
+}
+.about-khotang-image img {
+	width: 100%;
+	object-fit: cover;
+
+}
+
+.dfo-logo {
+	display: flex;
+}
+
+
+.logo-desc {
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	padding-left: 9px;
+	min-width: 400px;
+}
+
+.logo-desc .logo-title {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.logo-desc .logo-address {
+	font-size: 13px;
+	color: #1453B4;
+	font-weight: 600;
+}
